@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage":"adrianetp.github.io/Scavenger-hunt-cyber/",
+  "homepage":"https://adrianetp.github.io/Scavenger-hunt-cyber/",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
