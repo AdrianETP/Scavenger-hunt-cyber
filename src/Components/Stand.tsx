@@ -1,6 +1,13 @@
 import React from 'react'
 
-function Stand({ title, complete, index, Complete }) {
+interface StandProps {
+    title: string,
+    complete: boolean,
+    index:number, 
+    Complete:(index:number)=>void,
+}
+
+function Stand({ title, complete, index, Complete }:StandProps) {
     return (
         <div className='flex py-5'>
             <input className='checkbox mx-5 text-2xl' type="checkbox" checked={complete} onChange={() => Complete(index)} />
