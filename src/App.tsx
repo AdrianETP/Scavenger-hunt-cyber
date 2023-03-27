@@ -16,22 +16,22 @@ function App() {
             index: 0,
         },
         {
-            title: "Stand 1",
+            title: "Encriptación",
             complete: false,
             index: 1,
         },
         {
-            title: "Stand 2",
+            title: "Acertijos",
             complete: false,
             index: 2,
         },
         {
-            title: "Stand 3",
+            title: "Autenticación",
             complete: false,
             index: 3,
         },
         {
-            title: "Stand 4",
+            title: "Captcha",
             complete: false,
             index: 4,
         },
